@@ -17,16 +17,8 @@
       background: url('https://images.unsplash.com/photo-1532619187608-e5375cab36c9?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
       background-size: cover;
     }
-    header, section, footer {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-      background-color: rgba(255,255,255,0.9);
-      border-radius: 10px;
-    }
     header {
-      background: url('https://cdn.openai.com/chatgpt/marketing/hightech-market-logo.png') no-repeat center center/contain;
-      background-color: #000;
+      background: url('https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjgwYWY4MWJhNjQ0ODE5MWI0MDY2Y2JlNDE0ZmRlMzM6ZmlsZV8wMDAwMDAwMDI3MTQ2MWY3YTY4NDJkZjA2ZDU0Mzk3NCIsInRzIjoiNDg0ODc0IiwicCI6InB5aSIsInNpZyI6IjliYjA0NWMxYmE1NTc4NWFlZWY3ZGYxNWI2NmU0OTE1Y2ViODBkYmQ0ODUxYTc0MjRmZGQzNGNhNzg3ZTZlNDAiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ==') no-repeat center center/cover;
       color: white;
       height: 300px;
       display: flex;
