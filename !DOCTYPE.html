@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hightech Market LLC</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      scroll-behavior: smooth;
+      background: url('https://images.unsplash.com/photo-1532619187608-e5375cab36c9?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+    }
+    header, section, footer {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: rgba(255,255,255,0.9);
+      border-radius: 10px;
+    }
+    header {
+      background: url('https://cdn.openai.com/chatgpt/marketing/hightech-market-logo.png') no-repeat center center/contain;
+      background-color: #000;
+      color: white;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      background-color: rgba(0,0,0,0.6);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+    nav {
+      background: #000;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+      margin-top: 40px;
+    }
+    ul { list-style: disc; margin-left: 20px; }
+    .contacto {
+      background-color: #f8f8f8;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      text-decoration: none;
+      z-index: 1000;
+      transition: transform 0.3s ease;
+    }
+    .whatsapp:hover {
+      transform: scale(1.1);
+    }
+    .logo-footer {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .logo-footer img {
+      width: 150px;
+    }
+    .carousel {
+      margin-top: 40px;
+    }
+    .carousel img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    @media (max-width: 600px) {
+      nav a { display: block; margin: 10px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#quienes">Quiénes Somos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#historias">Historias de Éxito</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <header id="inicio">
+    <h1>Bienvenidos a Hightech Market LLC</h1>
+  </header>
+
+  <section class="carousel">
+    <div class="slider">
+      <div><img src="https://images.unsplash.com/photo-1581093588401-0c7b042b12a2?auto=format&fit=crop&w=1050&q=80" alt="Negocio 1"></div>
+      <div><img src="https://images.unsplash.com/photo-1542744173-05336fcc7ad4?auto=format&fit=crop&w=1050&q=80" alt="Negocio 2"></div>
+      <div><img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1050&q=80" alt="Negocio 3"></div>
+    </div>
+  </section>
+
+  <section id="quienes">
+    <h2>Quiénes Somos</h2>
+    <p>Somos una empresa especializada en la distribución y venta de productos de consumo a través de múltiples canales de venta, tanto online como offline, incluidos los mercados internacionales.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li><i class="fas fa-box"></i> Preparación de Logística</li>
+      <li><i class="fas fa-store"></i> Guía Rápida de Manejo de Tiendas (Walmart y Amazon)</li>
+      <li><i class="fas fa-chalkboard-teacher"></i> Curso Básico de Ecommerce Teórico - Práctico</li>
+      <li><i class="fas fa-comments"></i> Servicios de Consultoría</li>
+      <li><i class="fas fa-user-clock"></i> Acompañamiento por 3 meses, 6 meses y 1 año</li>
+    </ul>
+  </section>
+
+  <section id="historias">
+    <h2>Historias de Éxito</h2>
+    <p><i class="fas fa-trophy"></i> "Logré facturar $15,000 en los primeros 3 meses."</p>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <p><i class="fas fa-envelope"></i> Contáctanos: <a href="mailto:Hightechmarket21@gmail.com">Hightechmarket21@gmail.com</a></p>
+  </section>
+
+  <div class="logo-footer">
+    <img src="https://cdn.openai.com/chatgpt/marketing/hightech-market-logo.png" alt="Logo Hightech Market">
+  </div>
+
+  <a href="https://wa.me/19542683676" class="whatsapp" target="_blank" title="Escríbenos por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slider').slick({
+        autoplay: true,
+        dots: true,
+        arrows: false,
+        autoplaySpeed: 3000
+      });
+    });
+  </script>
+
+</body>
+</html>
